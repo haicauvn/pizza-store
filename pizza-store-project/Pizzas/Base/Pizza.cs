@@ -4,7 +4,7 @@ using System.Text;
 
 namespace pizza_store_project
 {
-    abstract class Pizza
+    public abstract class Pizza
     {
         protected string name;
         protected string dough;
@@ -32,7 +32,7 @@ namespace pizza_store_project
             Console.WriteLine("Cuting " + name);
         }
 
-        public virtual void Box()
+        public void Box()
         {
             Console.WriteLine("Boxing " + name);
             Console.WriteLine();
