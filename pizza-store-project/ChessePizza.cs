@@ -14,5 +14,10 @@ namespace pizza_store_project
             toppings.Add("Black Olives");
             toppings.Add("Cheese");
         }
+
+        public override void Box()
+        {
+            Console.WriteLine("Box[" + name + "]");
+        }
     }
 }

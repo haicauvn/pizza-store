@@ -13,5 +13,10 @@ namespace pizza_store_project
             sauce = "Sweet sauce";
             toppings.Add("Tomato");
         }
+
+        public override void Box()
+        {
+            Console.WriteLine("Box[" + name + "]");
+        }
     }
 }

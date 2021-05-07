@@ -32,9 +32,10 @@ namespace pizza_store_project
             Console.WriteLine("Cuting " + name);
         }
 
-        public void Box()
+        public virtual void Box()
         {
             Console.WriteLine("Boxing " + name);
+            Console.WriteLine();
         }
     }
 }
