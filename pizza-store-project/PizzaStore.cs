@@ -8,7 +8,7 @@ namespace pizza_store_project
     {
         public void OrderPizza()
         {
-            var pizza = new Pizza();
+            var pizza = new ChessePizza();
             pizza.Prepare();
             pizza.Bake();
             pizza.Cut();

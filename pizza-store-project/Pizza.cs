@@ -4,12 +4,12 @@ using System.Text;
 
 namespace pizza_store_project
 {
-    class Pizza
+    abstract class Pizza
     {
         protected string name;
         protected string dough;
         protected string sauce;
-        protected List<String> toppings;
+        protected List<String> toppings = new List<string>();
 
         public void Prepare()
         {
