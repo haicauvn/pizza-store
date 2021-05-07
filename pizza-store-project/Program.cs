@@ -6,7 +6,8 @@ namespace pizza_store_project
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var pizzstore = new PizzaStore();
+            pizzstore.OrderPizza();
         }
     }
 }
