@@ -7,7 +7,10 @@ namespace pizza_store_project
         static void Main(string[] args)
         {
             var pizzstore = new PizzaStore();
-            pizzstore.OrderPizza();
+            pizzstore.OrderPizza("chesse");
+            pizzstore.OrderPizza("greek");
+            pizzstore.OrderPizza("pepperoni");
+            pizzstore.OrderPizza("sugas");
         }
     }
 }
